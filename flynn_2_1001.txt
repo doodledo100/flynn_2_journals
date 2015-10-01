@@ -1,0 +1,8 @@
+What is a file system?
+A file system is a way of organizing information on a storage device like a computer hard drive.
+What are inodes?
+An inode is a record in a disk table, which contains information about a file or folder such as its size, owner, device node, socket, pipe, etc.
+What are disk partitions?
+Partitions can be created to separate  a section of space on a HDD to dedicated use by something.
+What are journaling file systems?
+For large file systems, journaling becomes crucial. A journaling file system provides improved structural consistency.
