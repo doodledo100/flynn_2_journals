@@ -1,0 +1,3 @@
+mount challenge1.img ./MountQuiz
+
+Assuming that you are in a directory with the folder MountQuiz and that the challenge1.img is in the pwd.

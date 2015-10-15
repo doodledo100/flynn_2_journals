@@ -1,0 +1,56 @@
+  File: ‘computerizestopxnD’
+  Size: 20908     	Blocks: 44         IO Block: 2048   regular file
+Device: 700h/1792d	Inode: 171         Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-10-09 04:45:22.000000000 -0500
+Modify: 2015-10-08 07:43:06.000000000 -0500
+Change: 2015-10-08 07:43:06.000000000 -0500
+ Birth: -
+  File: ‘desecratenapecsomg’
+  Size: 4557      	Blocks: 12         IO Block: 2048   regular file
+Device: 700h/1792d	Inode: 172         Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-10-09 04:45:22.000000000 -0500
+Modify: 2015-10-08 07:43:06.000000000 -0500
+Change: 2015-10-08 07:43:06.000000000 -0500
+ Birth: -
+  File: ‘enigmaJansenspg’
+  Size: 148521    	Blocks: 292        IO Block: 2048   regular file
+Device: 700h/1792d	Inode: 177         Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-10-09 04:45:22.000000000 -0500
+Modify: 2015-10-08 07:57:28.000000000 -0500
+Change: 2015-10-08 07:57:28.000000000 -0500
+ Birth: -
+  File: ‘hardheartednessseconomicmegxtC’
+  Size: 4620      	Blocks: 12         IO Block: 2048   regular file
+Device: 700h/1792d	Inode: 173         Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-10-09 04:45:22.000000000 -0500
+Modify: 2015-10-08 07:43:06.000000000 -0500
+Change: 2015-10-08 07:43:06.000000000 -0500
+ Birth: -
+  File: ‘radiotherapistnapegesesmeccaMHC’
+  Size: 4342      	Blocks: 12         IO Block: 2048   regular file
+Device: 700h/1792d	Inode: 174         Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-10-09 04:45:22.000000000 -0500
+Modify: 2015-10-08 07:43:06.000000000 -0500
+Change: 2015-10-08 07:43:06.000000000 -0500
+ Birth: -
+  File: ‘reassessmentcoaxedjogocbC’
+  Size: 4444      	Blocks: 12         IO Block: 2048   regular file
+Device: 700h/1792d	Inode: 175         Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-10-09 04:45:22.000000000 -0500
+Modify: 2015-10-08 07:43:06.000000000 -0500
+Change: 2015-10-08 07:43:06.000000000 -0500
+ Birth: -
+  File: ‘valedictoriesmessagejogXCCB’
+  Size: 4846      	Blocks: 12         IO Block: 2048   regular file
+Device: 700h/1792d	Inode: 176         Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: (    0/    root)   Gid: (    0/    root)
+Access: 2015-10-09 04:45:22.000000000 -0500
+Modify: 2015-10-08 07:43:06.000000000 -0500
+Change: 2015-10-08 07:43:06.000000000 -0500
+ Birth: -
