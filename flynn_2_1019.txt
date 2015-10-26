@@ -1,0 +1,12 @@
+What is a disk image?
+A clone of all the bits on a physical disk in an image file. (Usually a .img)
+What is the command to make a disk image?
+dd if=/dev/sda1 of=f.img
+What is a disk partition?
+A section of a physical disk that is separated from the other space on the disk.
+How many disk partitions are in a disk image?
+The number of partitions in an image is the same as the number on the disk.
+What difficulties does this pose if any?
+I don't see any issues.
+What steps must you take to work with this?
+You could use fdisk to partition your image file should it be needed.
