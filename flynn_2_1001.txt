@@ -6,3 +6,5 @@ What are disk partitions?
 Partitions can be created to separate  a section of space on a HDD to dedicated use by something.
 What are journaling file systems?
 For large file systems, journaling becomes crucial. A journaling file system provides improved structural consistency.
+ 
+

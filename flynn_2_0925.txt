@@ -33,3 +33,5 @@ How can you fill a disk / disk image with 0s?
 cat /dev/zero >> ZEROS.TXT
 Why would you fill a disk image with zeros?
 To erase everything in the image and write zeros to overwrite any previous data
+ 
+

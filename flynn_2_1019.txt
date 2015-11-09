@@ -10,3 +10,5 @@ What difficulties does this pose if any?
 I don't see any issues.
 What steps must you take to work with this?
 You could use fdisk to partition your image file should it be needed.
+ 
+
