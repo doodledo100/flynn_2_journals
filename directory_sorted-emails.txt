@@ -19,3 +19,5 @@ wclaug@neisd.net
 cat directory.cfm | grep -ao "[a-z 0-9 ^@]*@neisd.net" | sort -u
 
 The command searches for any characters containing letters, numbers, and anything not an @ sign with the ending of “@neisd.net” and then it is piped into sort unique to remove duplicates.
+ 
+
