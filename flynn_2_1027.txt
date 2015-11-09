@@ -1,0 +1,3 @@
+Please describe - what fluencies have you developed mounting the many partitions?
+I am now able to quickly calculated correct offsets for mounting disk images. I can unmount the disk images quickly. I know how to view the contents of the mounted partitions on the disk images.
+

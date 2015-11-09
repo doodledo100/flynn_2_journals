@@ -1,0 +1,6 @@
+How can you recover deleted images?
+When a file is 'deleted', it doesn't just disappear into space, its pointer is removed meaning you can't see it but it is still there until it is overwritten  by something else.
+These files can be recovered by searching through sectors on the disk.
+
+What information do you need to know?
+At least have an idea of what it is you're actually looking for in the data, like in the above example - images. So if you're searching for images on a disk, you may be able to search for image file extensions, etc...

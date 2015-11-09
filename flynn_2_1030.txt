@@ -1,0 +1,15 @@
+Why do we use disk images in digital forensics?
+We use disk images in order to preserve the physical state of the original drive and contents.
+Provide an example and describe a use case.
+A criminal uses his computer to delete some ransom notes he thought would be gone forever, but a forensic analyst can recover the data from the drive. Before he starts he should clone the physical drive so if he makes a mistake he can start over with the original copy.
+
+****************************************
+What are the steps of creating a blank disk image and then adding files?
+In a nutshell:
+1. fallocate
+2. cfdisk
+3. mkfs.ext4
+4. kpartx
+
+How does the OSI model relate to the use of disk images?
+The Physical layer in the OSI model relates to disk imaging because you are copying the bits and sectors on a physical drive to the disk image file.

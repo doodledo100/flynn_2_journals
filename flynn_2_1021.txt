@@ -1,0 +1,6 @@
+What is data carving?
+Data carving is a forensic recovery technique for 'carving'  blocks out of raw sectors.
+How is it done?
+Raw sectors related to a file is searched for info, but the file cannot be fragmented because there is not any allocation information.
+How does it relate to what we were doing yesterday?
+We were mounting disk images and using offsets to mount the correct part of the disk image.
