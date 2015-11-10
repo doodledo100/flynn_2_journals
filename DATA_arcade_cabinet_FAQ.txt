@@ -1,0 +1,13 @@
+DATA Arcade Machine Upright Cabinet FAQ:
+
+What will I be doing in this project?
+I will design and build a modern arcade upright cabinet for use in testing and playing DATA students games created and developed in DATA programming courses.
+
+How long will this project take roughly?
+Approx. 2 to 2.5 months (55 - 60 school days)
+
+Why was this project considered?
+I think it will be a fun and cool project to complete. I also have also desired building an arcade cabinet to play some of the classic games that have gone away.
+
+How will the cabinet be used by DATA?
+DATA may use the arcade cabinet for recruiting events to showcase to future DATA students the video games created by current DATA programmers.
