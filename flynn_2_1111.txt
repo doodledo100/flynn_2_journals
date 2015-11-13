@@ -1,2 +1,4 @@
 How can you recover deleted text?
 Use grep command to search for plain text in the 'slack space' of a disk image.
+ 
+

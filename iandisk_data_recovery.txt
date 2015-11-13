@@ -5,3 +5,6 @@ Then once photorec had recovered the data it output it into the recovered folder
 I opened both PNG files recovered from the disk and found two messages reading, "Hello Mr.Davis", and "Hello I am good".
 After I opened the images, I searched the disk using the command "grep -abi "[a-z]*" <iansdiskimagename>.img" in order to find the deleted text file on the disk image.
 I found the deleted text message on the disk which read "Mr. Davis Mac is BETTER!"
+
+ 
+
