@@ -1,0 +1,3 @@
+How can you combine multiple files in Linux?
+cat multiple files and output them to a single file.
+Hint: there is a way with a very basic command.

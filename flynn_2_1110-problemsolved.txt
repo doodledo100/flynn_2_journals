@@ -1,0 +1,6 @@
+How can you recover deleted pictures?
+Deleted files may be recovered through disk utilities that search the binary contents for deleted content.
+List 3 programs. Can you use each of them? Why or why not?
+Photorec / Testdisk / Scalpel / Foremost
+What information do you need to know?
+What and where you are searching.
