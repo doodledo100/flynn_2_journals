@@ -1,0 +1,11 @@
+What is the process for locating the beginning of an image file? How? Why?
+The process is simple, just use fdisk to 
+Please write a journal using all of the below sentence frames.
+First we search for ________ We search for _______ by using the command ________
+Then we _________ to find the line.
+Using the value from that - we use __________ and __________ to convert __________ to a decimal number.
+For example, in the example from yesterday, we found ____________ and converted it to decimal using the command _________________
+Then to find the end of the file, we searched for _______________ using the command ___________________.
+******************************************************
+Using that information, we find the number of bits, using the command _____________
+Then using dd we can reconstruct the file using the command __________________________

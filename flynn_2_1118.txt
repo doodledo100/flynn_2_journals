@@ -1,0 +1,5 @@
+This is a test of your data literacy and information finding skills:
+
+What is the file header for a jpeg image? PNG?
+
+Hint: it will be searchable with a hex editor such as xxd

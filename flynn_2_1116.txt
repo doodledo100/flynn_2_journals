@@ -1,0 +1,3 @@
+How did you split multiple files in Linux?
+
+What are the specific commands to create, partition, and write files to a disk image?

@@ -1,0 +1,19 @@
+Look at the link here
+
+Describe:
+
+What type of information does this site provide? Why?
+
+How would a digital forensics expert use this information?
+
+Look at the pdf here
+
+What is it for?
+
+What information BE SPECIFIC do you need to recover:
+
+an Excel document?
+
+a Word document?
+
+a ZIP file?
