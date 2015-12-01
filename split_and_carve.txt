@@ -1,0 +1,37 @@
+Now: Finish DATA recover Challenge 2!
+
+Create your own image with a secret message.
+
+Split the image in 3 parts.
+
+Create a disk image with 3 partitions.
+
+Put one part of the file on each partition.
+
+unmount the image
+
+Send an email with the a copy of the image - subject #splitimage-full
+
+Mount the partition - delete the images
+
+Send an email with the deleted, split image - subject #splitimage-deleted
+-----------------------------------------------------------------------------1118(1116)
+l337 recovery should finish today!
+
+Finish
+
+Open the document here.
+
+    Go to page 92
+
+Look at /usr/share/digitalforensics/images/images/
+Look at image_carve.raw
+Using the steps detailed starting on p.92
+Recover the damaged image
+Send it in an email with the subject line #carve0
+Then recover mysteryimage
+Use the same process as above to recover the mystery image.
+In an email describe the differences to the above process. For example, you had to look for png file headers.
+Send the description and the recovered image with the subject line #carve1
+--------------------------------------------------------------------------1130
+
