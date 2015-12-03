@@ -34,4 +34,14 @@ Use the same process as above to recover the mystery image.
 In an email describe the differences to the above process. For example, you had to look for png file headers.
 Send the description and the recovered image with the subject line #carve1
 --------------------------------------------------------------------------1130
+There is a new file image, here:
+/usr/share/digitalforensics/images/images/image120215.img
+
+Using this image -
+Using the PDF from yesterday here and your own problem solving acumen
+Recover the deleted file(s) - not pictures but other popular file formats
+follow the instructions included with the file(s)
+Submit the recovered file(s) in an email with
+a description of the problem solving steps you took. Leave out any " I asked Bob " . They will not be credited. Also, provide any additional information that the recovered file(s) may have asked for. 
+-------------------------------------------------------------------------1202
 
