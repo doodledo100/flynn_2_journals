@@ -1,19 +1,23 @@
-Look at the link here
+Look at the link here:
 
 Describe:
 
 What type of information does this site provide? Why?
-
+File Interchange Format File Format Summaries for different file types.
 How would a digital forensics expert use this information?
-
-Look at the pdf here
+He would use this info to look for specific file types on a disk.
+Look at the pdf here:
 
 What is it for?
-
+Hex File Headers and Regex for Forensic Analysis
 What information BE SPECIFIC do you need to recover:
-
+You need to search for the file header hex code for each filetype you wish to recover.
 an Excel document?
-
+Filetype  Start         ASCII
+Excel     D0 CF 11 E0
 a Word document?
-
+Filetype  Start         ASCII
+Word      D0 CF 11 E0
 a ZIP file?
+Filetype  Start         ASCII
+zip       50 4B 03 04   PK
