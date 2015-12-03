@@ -1,6 +1,12 @@
 This is a test of your data literacy and information finding skills:
 
 What is the file header for a jpeg image? PNG?
+Filetype    Start                   ASCII
+jpeg        FF D8 FF E1        
+jpeg        FF D8 FF E0             JFIF 
+jpeg        FF D8 FF FE             JFIF 
+png         89 50 4E 47             PNG
+--------------------------------------------------
 A PNG file contains an 8-byte header.
 A JPEG file contains 2-bytes header (SOI) followed by series of markers, some markers can be followed by data array. Each type of marker has different header format. The bytes where the image is stored follows SOF0 marker (10-byte length). However, between JPEG header and SOF0 marker there can be other segments.
 Hint: it will be searchable with a hex editor such as xxd
