@@ -1,3 +1,7 @@
 How did you split multiple files in Linux?
-
+Use the split command and pass through multiple files.
 What are the specific commands to create, partition, and write files to a disk image?
+1.fallocate
+2.cfdisk
+3.kpartx
+4.mkfs
