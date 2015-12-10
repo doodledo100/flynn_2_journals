@@ -5,7 +5,19 @@ Please describe - What does it mean to generalize a skill?
 ***************************
 
 What are five likely questions for the final exam?
-
+1. Once a file is deleted, is it really gone? Explain.
+2. What commands can be used to create a disk image?
+3. How can files be split in Linux?
+4. What is data carving? Explain.
+5. How can a disk image be mounted for forensic analyzation? 
 Their answers?
-
+1. No, the shortcut or pointer to the file on the hard disk is removed but the data is still there, the data sectors are just marked 'available' so when space is needed the data will be overwritten. Once overwritten so many times, the file's chance of recovery is slim.
+2. i.   fallocate
+   ii.  cfdisk
+   iii. kpartx
+   iv.  mkfs
+3. Use the split command and pass through multiple files.
+4. Data carving is the process of searching through bits of data and finding a file header and a tail to then copy or 'dd' the set of bits out, essentially recovering the file.
+5. mount disk.img /mnt/foldername
 Why ask these questions?
+These questions should summarize the majority of tasks we have done and practiced this year.
