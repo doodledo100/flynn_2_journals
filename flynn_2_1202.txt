@@ -1,3 +1,5 @@
 For your journal, consider (in writing), given that file headers change and hex editors change - what processes are you learning that lead to file recovery?
-
+A file type can change over time and may change the way it is recovered or found in a search.
+Should a file header change and you know what file type you're looking for, you can simply tail the end of a file you do have of the same type and use the bit ending in that file to find the lost or deleted file.
 And may be extensible to other aspects of problem solving and life? [This does have an answer.] 
+Life presents all different kinds of problems that can be solved in many different ways, but the way 'you' solve it will differ from the way someone else will solve it; Things change, life changes, and we just have to adapt to it.
