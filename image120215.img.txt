@@ -1,0 +1,11 @@
+What will remain from your education?
+Not much if Google is used for everything.
+
+What's the file header for docx?
+50 4B 03 04
+
+Who was the author of the doc?
+Little Endian
+
+What was the creation time?
+Tuesday, December 1, 2015 at 23:18:07 (11:18:07PM)
