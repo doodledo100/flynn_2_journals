@@ -1,21 +1,3 @@
-Now: Finish DATA recover Challenge 2!
-
-Create your own image with a secret message.
-
-Split the image in 3 parts.
-
-Create a disk image with 3 partitions.
-
-Put one part of the file on each partition.
-
-unmount the image
-
-Send an email with the a copy of the image - subject #splitimage-full
-
-Mount the partition - delete the images
-
-Send an email with the deleted, split image - subject #splitimage-deleted
------------------------------------------------------------------------------1118(1116)
 l337 recovery should finish today!
 
 Finish
