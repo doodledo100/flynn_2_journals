@@ -1,0 +1,10 @@
+1. Given a unique file type, e.g. a 'blorb', how could we identify its file header and tail?
+   Please look at the image df_0106.img in /usr/share/digitalforensics/images.
+   Using this image, answer the following questions:
+2. Use the command:
+3. icat df_0106.img
+4. blkls df_0106.img > blkls.df0107
+5. strings -t d blkls.df0107 > df0101.str
+6. What were the contents of the deleted file?
+7. Use strings or any other tool to find the text contents of another hidden file
+8. What is that file name? How did you find it?

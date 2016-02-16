@@ -1,0 +1,27 @@
+We are beginning a new case with network data and a simulated crime. Namely, the illegal images being recovered and traced are of KITTENS.
+
+Outside of an academic setting, digital forensics investigators must contend with images more disturbing than kittens.
+
+Although, the corpus is cleansed - the following of links is discouraged.
+For this longer journal -
+
+    Complete the following:
+    In a VM or shared folder (shared folder is better and should be trivial), download the pcap from here
+    gunzip the pcap
+    In a VM, install tcpdump: apt-get update; apt-get install tcpdump tcpick
+    Convert the dump to text with the command: tcpdump -r net-2009-11-13-09\:24.pcap >net2009-11-13.txt
+    scroll the the output to get a feel for the communications. [The text file.]
+
+    Answer the following questions:
+    What browser is being used? How do you know? [Give output to support your answer]
+    What subnet is the machine on?
+    What is the router's IP address? [Is this common? Why?]
+    What is Verisign?
+    Which programming language is being investigated?
+    What are ack and seq?
+    Is somebody sending email? How do you know?
+    Is there a printer on the network? How do you know? [Give data to support your assertion.]
+    Are any gov sites contacted? Why?
+    Why is there so much traffic to deploy.akamaitechnologies.com?
+    A lot of data is going to and from a sepcific IP address - what is that address? What type of traffic?
+

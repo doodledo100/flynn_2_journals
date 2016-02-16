@@ -1,0 +1,14 @@
+Using the commands from yesterday:
+pffexport outlook.pst
+
+from the recovered pst file
+
+ls the newly created directory
+
+How many directories are there? What are the directories?
+
+Using cat , Where are the actual messages kept? What directory(s)? What files?
+
+cat and grep the files to find the email requesting the spreadsheet.
+
+Is this email suspicious/problematic? How? Be specific. Explain what most likely happened.

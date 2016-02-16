@@ -1,0 +1,16 @@
+Copy the file /usr/share/digitalforensics/images/nps-2008-jean.E01 to someplace you can work on it.
+For each of the following commands, try the command and explain what it does in your words - copying and pasting from man, many of you leave out critical information e.g., such as what it actually does
+1. Type fls by itself
+2. mmls -i ewf nps-2008-jean.E01
+3. Why did we type ewf What is ewf?
+4. fls -i ewf -o 63 nps-2008-jean.E01
+5. What is a body file?
+6. fls -r -m "/" -i ewf -o 63 nps-2008-jean.E01 >> bodyfile.txt
+7. cat bodyfile.txt
+8. What is in the bodyfile.txt? What can you tell from the file?
+9. What does -r do?
+10. What does -m do?
+11. mactime -b bodyfile.txt > mactimeout.csv
+12. Open the file mactimeout.csv with librecalc
+13.  fls -r -F "/" -i ewf -o 63 nps-2008-jean.E01 |grep .xls
+14. icat -o 63 fls -r -m "/" -i ewf -o 63 nps-2008-jean.E01 32712> example.xls

@@ -1,0 +1,22 @@
+Try out the following commands as root and document - what they do:
+1. tcpdump -nS
+2. tcpdump -w writes to a file, e.g., tcpdump -w lastname_0211.pcap
+3. To capture traffic for a specific port: tcpdump port ??
+4. To cature traffic on a specific interface: tcpdump -i eth0
+5. In Linux, to list interfaces, type ifconfig (as root)
+6. Given the above - what is the command to capture most/all web based traffic on your computer to a file lastname_0211.pcap?
+7. Use that command to begin a packet capture.
+8. Browse to ten web pages
+9. Examine the pcap - grab a line from each of the ten web pages
+
+Post them in your document, number and describing each one:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 

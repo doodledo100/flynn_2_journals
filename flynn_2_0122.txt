@@ -1,0 +1,38 @@
+Copy the file /usr/share/digitalforensics/images/nps-2008-jean.E01 and E02 to someplace you can work on it.
+For each of the following commands, try the command and explain what it does in your words - copying and pasting from man, many of you leave out critical information e.g., such as what it actually does
+What is the xmount command to mount both disk images?
+Type fls by itself
+mmls -i ewf nps-2008-jean.E01
+Why did we type ewf?
+What is ewf?
+What important number did we get from this output?
+fls -i raw -o 63 nps-2008-jean.dd
+What changed in the above command? i.e., why the change from ewf to raw?
+What is a body file?
+fls -r -m "/" -i raw -o 63 nps-2008-jean.dd >> bodyfile.txt
+cat bodyfile.txt
+What is in the bodyfile.txt? What can you tell from the file?
+What does -r do? [Read the man file]
+What does -m do? [Read the man file]
+mactime -b bodyfile.txt > mactimeout.csv
+What do mactime and mac-robber do? Why? [Consult here.]
+What are the parts of a mactime file? As described here.
+What do:
+
+    m
+    a
+    c
+    and
+    b
+
+mean?
+Open the file mactimeout.csv with librecalc - what are some lines with Excel documents mentioned?
+What does Jean typically do on her computer? [Explain]
+fls -r -i raw -o 63 nps-2008-jean.dd |grep .xls
+icat -o 63 -i raw nps-2008-jean.dd 32712 > example.xls
+Where did the number 32712 come from? Why and what do we use it for?
+Please submit the recovered XLS pasted at the bottom of this assignment.
+What are prefetch and LNK files? [Google them]
+Where do we see them on the timeline ?<\li>
+and what do they tell us (about Jean and anyone who uses a Windows computer)?
+The actual case and questions to answer are here.

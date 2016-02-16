@@ -1,0 +1,13 @@
+Copy the file /usr/share/digitalforensics/images/newfloppy.img to someplace you can work on it.
+For each of the following commands, try the command and explain what it does in your words - copying and pasting from man, many of you leave out critical information e.g., such as what it actually does
+1. mmls -t dos newfloppy.img - what happens?
+2. mmls -t dos manypartitions3.disk
+3. How is it diferent than newfloppy.img?
+4. What is the first column?
+5. What might the slot value be?
+6. mmls -t list
+7. What are raw, aff, afd, afm, afflib, ewf, and split with regards to digital forensics?
+8. Using manypartitions3.disk
+9. mmls manypartitions3.disk
+10. mmls -a manypartitions3.disk
+11. fdisk -lu manypartitions3.disk

@@ -1,0 +1,4 @@
+
+1. List the steps from xmount, to fls, to icat, to pffexport, to grep, to cat -- to reveal the problematic email headers from the M57.biz
+2. Paste the problematic email headers
+

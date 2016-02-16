@@ -1,0 +1,19 @@
+CSI - Reality and Film
+1. How is the portrayal of malicious code problematic?
+2. Why is the case being investigated by Cyber CSI?
+3. What is the “deep web”? 
+4. How / why was the pharmacy not legitimate although it was on 
+    “Scroll MD”? 
+5.    How is the CyberCSI data search different than one might 
+experience in real life? [What tool might one use in real life?]
+6. How is the “mailer” the most vulnerable in the chain? 
+7. What does “malvertisement” refer to?
+8. How did they find the GPS coordinates?
+9. What other location data does your cell phone provide?
+10. What type of “injection” was used to redirect customers? How?
+11. How did he obfuscate his license plate? 
+12. How was the “perp’s” car tracked? 
+13. How might one “spoof” mac addresses? 
+14. How is the DDOS diagnosis suspicious?
+15. What is a DDOS attack? How does it work?
+16. How did the perp transfer funds so to obfuscate tracking? 
