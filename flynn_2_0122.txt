@@ -1,38 +1,59 @@
 Copy the file /usr/share/digitalforensics/images/nps-2008-jean.E01 and E02 to someplace you can work on it.
 For each of the following commands, try the command and explain what it does in your words - copying and pasting from man, many of you leave out critical information e.g., such as what it actually does
 What is the xmount command to mount both disk images?
+xmount nps-2008-jean.E0?
 Type fls by itself
 mmls -i ewf nps-2008-jean.E01
 Why did we type ewf?
+ewf is the file format
 What is ewf?
+Eye Witness Format / Expert witness format
 What important number did we get from this output?
+The start of the partition. (63)
 fls -i raw -o 63 nps-2008-jean.dd
 What changed in the above command? i.e., why the change from ewf to raw?
+Changed from ewf to raw because .dd is a bit by bit clone of the image.
 What is a body file?
+Bodyfile contains specific file information such as access, modified, creation dates/times and is delimited by "|"
 fls -r -m "/" -i raw -o 63 nps-2008-jean.dd >> bodyfile.txt
 cat bodyfile.txt
 What is in the bodyfile.txt? What can you tell from the file?
 What does -r do? [Read the man file]
+Recursively lists file info from within directories.
 What does -m do? [Read the man file]
+Outputs in mactime displaying dir/ as root directory
 mactime -b bodyfile.txt > mactimeout.csv
 What do mactime and mac-robber do? Why? [Consult here.]
+Mactime-displays in mactime output
+mac-robber- digital investigation tool that collects data from allocated files in a mounted file system
 What are the parts of a mactime file? As described here.
+Here are the columns:
+Columns:
+      Date/Time              Size    Activity         Unix      User     Group     inode     File Name
+                            (Bytes)    Type        Permissions   Id        Id     
+
 What do:
 
-    m
-    a
-    c
+    m-Displays output in mactime
+    a-Display . & .. entries in output
     and
-    b
+    b-Displays size of sectors in bytes
 
 mean?
 Open the file mactimeout.csv with librecalc - what are some lines with Excel documents mentioned?
+819 Wed Feb 10 1999 02:41:18    11776 m..b r/rrwxrwxrwx 0        0        16911-128-3 /WINDOWS/ShellNew/EXCEL9.XLS
+126680                            291840 ..c. r/rrwxrwxrwx 0        0        32712-128-3 /Documents and Settings/Jean/Desktop/m57biz.xls
 What does Jean typically do on her computer? [Explain]
+Jean was an office workers and was opening documents that may at some points contained sensitive data that wasn't for her to see.
 fls -r -i raw -o 63 nps-2008-jean.dd |grep .xls
 icat -o 63 -i raw nps-2008-jean.dd 32712 > example.xls
 Where did the number 32712 come from? Why and what do we use it for?
+m57biz.xls; We use this file to analyze suspicious activity.
 Please submit the recovered XLS pasted at the bottom of this assignment.
+In email.
+
 What are prefetch and LNK files? [Google them]
-Where do we see them on the timeline ?<\li>
-and what do they tell us (about Jean and anyone who uses a Windows computer)?
+The prefetch folder is a subfolder of the Windows system folder. The prefetch folder is self-maintaining, and there's no need to delete it or empty its contents; LNK files are shortcuts files that point to an executable in a Windows environment.
+
 The actual case and questions to answer are here.
+PPT
