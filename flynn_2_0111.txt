@@ -1,13 +1,57 @@
 Copy the file /usr/share/digitalforensics/images/newfloppy.img to someplace you can work on it.
 For each of the following commands, try the command and explain what it does in your words - copying and pasting from man, many of you leave out critical information e.g., such as what it actually does
 1. mmls -t dos newfloppy.img - what happens?
+ It fails with output "Invalid magic value (File is not a DOS partition (invalid primary magic) (Sector: 0))" because the filesystem type is not 'dos'
 2. mmls -t dos manypartitions3.disk
+  The command successfully shows the partition layout and disk labels of a disk
 3. How is it diferent than newfloppy.img?
+It didn't fail because manypartitions is file type 'dos'
 4. What is the first column?
+The first column is the Sleuth Kit assigned partition id.
 5. What might the slot value be?
+Describes a partition's location in a volume system table.
 6. mmls -t list
+This lists the file types that mmls supports:
+Supported partition types:
+	dos (DOS Partition Table)
+	mac (MAC Partition Map)
+	bsd (BSD Disk Label)
+	sun (Sun Volume Table of Contents (Solaris))
+	gpt (GUID Partition Table (EFI))
+
 7. What are raw, aff, afd, afm, afflib, ewf, and split with regards to digital forensics?
+raw-This format is a RAW bit-by-bit copy of the original
+aff-Advanced Forensic Format is more flexible because it allows extensive metadata to be stored with images, and it also uses less space than other formats.
+afd-AFD is a variation of AFF and stores the data and metadata in multiple small files
+afm-AFM is another variation of AFF and stores the data in a raw format and the metadata is stored in a separate file
+afflib-The Advanced Forensic Format Library and Tools; It is a library of tools that are useful for these disk imaging methods and file types.
+ewf-Encase Image File Format aka Expert Witness Format or Eye Witness Format; This file type (*.E01, *.E02) is used in data recovery often.
+split-Split raw image file;This process has many different split pieces of an image.
 8. Using manypartitions3.disk
 9. mmls manypartitions3.disk
+DOS Partition Table
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Primary Table (#0)
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  000:000   0000002048   0000006143   0000004096   Linux (0x83)
+003:  000:001   0000006144   0000010239   0000004096   Linux (0x83)
+004:  000:002   0000010240   0000014335   0000004096   Linux (0x83)
+005:  000:003   0000014336   0000018431   0000004096   Linux (0x83)
+006:  -------   0000018432   0000020479   0000002048   Unallocated
 10. mmls -a manypartitions3.disk
+This output only shows allocated volumes:
+
+DOS Partition Table
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+002:  000:000   0000002048   0000006143   0000004096   Linux (0x83)
+003:  000:001   0000006144   0000010239   0000004096   Linux (0x83)
+004:  000:002   0000010240   0000014335   0000004096   Linux (0x83)
+005:  000:003   0000014336   0000018431   0000004096   Linux (0x83)
+
 11. fdisk -lu manypartitions3.disk
