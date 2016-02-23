@@ -2,4 +2,5 @@ SleuthKit quiz is tomorrow. All commands and questions covered in class activity
 
     Jean supposedly sent the spreadsheet via email to her boss.
     Using the disk image - and the information provided in the packet - how can one check?
+    We can use pff tools to search her outlook files to verify if she sent the spreadsheet to her boss.
 
