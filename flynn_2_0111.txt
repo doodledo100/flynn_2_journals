@@ -55,3 +55,4 @@ Units are in 512-byte sectors
 005:  000:003   0000014336   0000018431   0000004096   Linux (0x83)
 
 11. fdisk -lu manypartitions3.disk
+Lists the partitions and sectors of the image.
