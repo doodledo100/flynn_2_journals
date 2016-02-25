@@ -1,1 +1,2 @@
 How and why might you capture network data for forensic purposes?
+Data may need to be captured to search for any suspicious visits or links to something illegal over a network.
