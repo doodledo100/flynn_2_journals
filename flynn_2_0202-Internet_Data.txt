@@ -1,22 +1,38 @@
     Copy the internet header from message 207
+Return-Path: <simsong@xy.dreamhostps.com>
+X-Original-To: jean@m57.biz
+Delivered-To: x2789967@spunkymail-mx8.g.dreamhost.com
+Received: from smarty.dreamhost.com (sd-green-bigip-81.dreamhost.com [208.97.132.81])
+	by spunkymail-mx8.g.dreamhost.com (Postfix) with ESMTP id E32634D80F
+	for <jean@m57.biz>; Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
+Received: from xy.dreamhostps.com (apache2-xy.xy.dreamhostps.com [208.97.188.9])
+	by smarty.dreamhost.com (Postfix) with ESMTP id 6E408EE23D
+	for <jean@m57.biz>; Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
+Received: by xy.dreamhostps.com (Postfix, from userid 558838)
+	id 64C683B1DAE; Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
+To: jean@m57.biz
+From: alison@m57.biz
+subject: background checks
+Message-Id: <20080719233957.64C683B1DAE@xy.dreamhostps.com>
+Date: Sat, 19 Jul 2008 16:39:57 -0700 (PDT)
 
     What are the parts?
-
+It shows Sender, Reciever, timestamps, path the email took between each server it went through to arrive in your inbox.
     What incongruities?
-
+There may be different people seeing the email and the timestamps may be incorrect
     Why are internet headers important for forensics investigators?
-
+If the header wasn't falsified then it can give important path info the email took from where it originated to when it got to its destination. It also shows Sender, Reciever,  timestamps, etc
 ************************************************
 
 Title it: Internet Data
 
     Add the following items:
-    TCP
-    UDP
-    Three way handshake
-    TCPdump
-    ettercap
-    wireshark
-    nessus
-    DNS
-    arp
+    TCP-Transmission Control Protocol
+    UDP-User Datagram Protocol
+    Three way handshake-known as the SYN, SYN-ACK, ACK sequence, the three-way handshake is the process in which two communication partners synchronize during the establishment of a connection.
+    TCPdump-allows the user to display TCP/IP and other packets being transmitted or received over a network
+    ettercap-network security tool for man-in-the-middle attacks on LAN
+    wireshark-Open packet analyzer used for network troubleshooting, analysis, and development of software
+    nessus-remote security scanning tool, which scans a computer and raises an alert if it discovers any vulnerabilities that malicious hackers could use to gain access to any computer you have connected to a network
+    DNS-Domain Name Service (keeps you from having to remember a whole ton of IP addresses, and instead you remember a name that links/points to a specific IP address)
+    arp- Address Resolution Protocol (maps IP network addresses to the hardware addresses used by a data link protocol)
