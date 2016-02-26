@@ -1,0 +1,44 @@
+In your VM
+
+    Execute the command apt-cache search sniff
+    What do you see?
+    Copy and paste 3 names that sound intersting
+
+    Execute the command: cat /proc/sys/net/ipv4/ip_forward
+    What do you think it means?
+    Why might someone change the value to 1?
+
+    You should now install Zenmap
+    What command(s) are needed to update and install zenmap?
+
+    Start zenmap
+
+    root does not have permission to run graphics; you'll need to use xhost + from your normal VM user.
+
+    In a terminal type: nmap --top-ports 25 10.4.27.YOURNINJA+1
+    What do you see?
+    Change the 25 to 10 and then to 100 - what changed?
+
+    Enter the code: nmap -F 10.4.27.1-29
+
+    What did you see?
+    How might this be useful in a digital forensics investigation?
+
+    Scan the subnet to identify the various OSes
+    What is an OS?
+    Why would you scan the network for different OSes?
+
+    -o is used for OS scans
+    What command did you use to scan d22 for different OSes?
+    What is the address of the printer?
+    What is the address of the switch?
+
+    Try the code: nmap --iflist
+    What does it do?
+    What are the ipv4 addresses?
+    What are the ipv6 addresses?
+    Why the difference?
+
+    Now fire up Zenmap and take a picture of the network topography
+    Why would you want a picture of network topography for digital forensics?
+

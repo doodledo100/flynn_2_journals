@@ -1,0 +1,11 @@
+Use chaosreader on /usr/share/digitalforensics/tcpdump/ninja90217_b.pcap
+
+What web pages were visited? [Top 3]
+
+What images were viewed?
+
+Copy one of the picture to your journal directory - include the file name in your journal
+
+What other fields / information does chaosreader provide?
+
+How did you view the report?

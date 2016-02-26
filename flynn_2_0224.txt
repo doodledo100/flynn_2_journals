@@ -1,0 +1,12 @@
+In your VM
+
+Using Zenmap, do a quick scan of the network
+
+Look at the 'hosts' and 'services' tab
+
+Click on services
+You should see approximately 7 services
+
+Click on each in order
+
+By examining services only - identify / guess which computer is Mr. Davis' - explain your rational
