@@ -1,0 +1,14 @@
+Google (or install and man and Describe: tcpick
+tcpick is a program that sniffstcp streams and captures data for each and every connection.
+
+Google (or install and man and Describe: chaosreader
+traces sessions and captures app data from tcpdump logs and then exports it to HTML
+
+Google (or install and man and Describe: tcpflow
+Captures data transmitted over TCP connections and reconstructs the path regardless of retransmissions or out-of-order delivery.
+
+Google (or install and man and Describe: driftnet
+Watches network traffic and shows JPEGs and GIFs on screen for viewing.
+
+May you use these on public networks? Why or why not?
+You may not use these tools on public networks because it would be a mojor invasion of privacy to anyone on the network and is a federal crime without a warrant.
