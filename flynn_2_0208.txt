@@ -1,6 +1,17 @@
 When you signed up for digital forensics, what did you think a digital forensics investigator did?
+I figured a digital forensics investigator found suspicious files and activities occurring within technology.
+
 When you signed up for this class, what did you think you would be doing in this class?
+The same thing as described above - which we are.
+
 Given what you now know about digital forensics - what does a digital forensics investigation look like?
+It has a very strict process, for good reason, in order to preserve any possible evidence that may be lurking within the technology in question.
+
 How might an actual forensics investigation be different than those unfamiliar with digital forensics might predict?
+Someone without knowledge of what an investigator might do in this field, may be conflicted due to the TV shows and movies that portray these kinds of jobs as easy and quick to answers; In reality things take time and INVESTIGATION.
+
 Are you currently interested in digital forensics? Why or why not?
+I am interested in Digital Forensics because I live in a world where technology rules and it is interesting to know how aspects of your life is logged through technology.
+
 If a friend told you, they want to study digital forensics, what advice might you give them?
+I'd tell them that it is a great field to go into but it does take effort and devotion.

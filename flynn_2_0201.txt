@@ -1,4 +1,17 @@
 
 1. List the steps from xmount, to fls, to icat, to pffexport, to grep, to cat -- to reveal the problematic email headers from the M57.biz
+I used pffexport to extract contents of pst file to directories and then found Message00016 in Sent Items containing the questioned spreadsheet. The OutlookHeader and Message header appear to have conflicting time stamps.
 2. Paste the problematic email headers
+From Message.txt:
+-----Original Message-----
+From: alison@m57.biz [mailto:tuckgorge@gmail.com]
+Sent: Sunday, July 20, 2008 2:23 AM
+To: jean@m57.biz
+Subject: Please send me the information now
 
+From OutlookHeader.txt
+Message:
+Client submit time:			Jul 20, 2008 01:28:47.828125000 UTC
+Delivery time:				Jul 20, 2008 01:28:00.000000000 UTC
+Creation time:				Jul 20, 2008 01:26:17.390000000 UTC
+Modification time:			Jul 20, 2008 01:28:47.828000000 UTC

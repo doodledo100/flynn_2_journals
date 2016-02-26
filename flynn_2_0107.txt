@@ -1,4 +1,5 @@
 1. Given a unique file type, e.g. a 'blorb', how could we identify its file header and tail?
+   Hex dump (xxd) the file in question and pipe t he output through head to find the header and vice versa pipe the ouput through tail for the ending.
    Please look at the image df_0106.img in /usr/share/digitalforensics/images.
    Using this image, answer the following questions:
 2. Use the command:
@@ -6,5 +7,23 @@
 4. blkls df_0106.img > blkls.df0107
 5. strings -t d blkls.df0107 > df0101.str
 6. What were the contents of the deleted file?
+   Contained passwords and other sensitive information.
 7. Use strings or any other tool to find the text contents of another hidden file
+ 197632 man i dont know why i should do that stuff it's totally not cool 
+ 197698 effort is so lame 
+ 197717 ill tell you what here are the usernames and passwords 4 the teacherz 
+ 197789 contreraras 123456
+ 197808 hudson password
+ 197824 dagget qwerty
+ 197838 stancek baseball
+ 197855 pape dragon
+ 197867 claughton football
+ 197886 davis d22ninja
+ 197901 vidal Th353kidzd0ntkn0wh0w2r3@d!
+ 715776 b0nano 2.4.2
+ 715804 root
+ 715844 ninja38
+ 715884 /mnt/0106_df/mopey
+
 8. What is that file name? How did you find it?
+TeacherPasswd; grep img
