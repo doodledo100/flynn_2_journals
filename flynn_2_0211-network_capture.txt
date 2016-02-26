@@ -1,3 +1,6 @@
+Place a copy your tcpdump in /usr/share/digitalforensics/tcpdump/
+Finish the document called 'Network Capture' share link via email with hashtag networkcapture
+
 Try out the following commands as root and document - what they do:
 1. tcpdump -nS
 2. tcpdump -w writes to a file, e.g., tcpdump -w lastname_0211.pcap
