@@ -4,11 +4,13 @@ What web pages were visited? [Top 3]
 https://www.wikimedia.org/
 https://www.google.com/?gws_rd=ssl
 http://52.72.142.234/ with content of "I dream of being a web site."
+http://10.223.223.11/ is Vmax web viewer
 
 What images were viewed?
-
-Copy one of the picture to your journal directory - include the file name in your journal
+There aren't any images in the Image Report
 
 What other fields / information does chaosreader provide?
+TCP, UDP connections, Sessions, IP count, Image Reports, GET/POST Report, Proxy Logs, etc...
 
 How did you view the report?
+Clicked the respective link in the chaosreader generated index.html file
