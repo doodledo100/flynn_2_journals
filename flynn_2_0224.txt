@@ -10,3 +10,4 @@ You should see approximately 7 services
 Click on each in order
 
 By examining services only - identify / guess which computer is Mr. Davis' - explain your rational
+10.4.27.39 because I saw Kerberos server running possibly for the logon servers for d22.lan computers
