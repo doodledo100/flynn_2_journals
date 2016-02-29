@@ -13,15 +13,30 @@ For this longer journal -
     scroll the the output to get a feel for the communications. [The text file.]
 
     Answer the following questions:
-    What browser is being used? How do you know? [Give output to support your answer]
+    What browser is being used? How do you know?
+    Mozilla Firefox; moz.com01.nslib.sj.mozilla.com.http
     What subnet is the machine on?
+    255.255.255.0
     What is the router's IP address? [Is this common? Why?]
+    192.168.1.50
     What is Verisign?
+    Verisign is a corporation that signs certificate stating that an entity is a legitimate one.
     Which programming language is being investigated?
+    Java
     What are ack and seq?
+    ack- acknowledgement
+    seq - sequence
     Is somebody sending email? How do you know?
-    Is there a printer on the network? How do you know? [Give data to support your assertion.]
+    Yes port 25 has traffic
+    
+    Is there a printer on the network? How do you know?
+    Yes
+    
     Are any gov sites contacted? Why?
+    Not Sure
+    
     Why is there so much traffic to deploy.akamaitechnologies.com?
+    It is a popular site to visit
+    
     A lot of data is going to and from a sepcific IP address - what is that address? What type of traffic?
-
+    Possibly Mr. Davis d22.lan server for his computer lab
