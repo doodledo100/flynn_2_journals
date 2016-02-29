@@ -1,6 +1,9 @@
 Use chaosreader on /usr/share/digitalforensics/tcpdump/ninja90217_b.pcap
 
 What web pages were visited? [Top 3]
+https://www.wikimedia.org/
+https://www.google.com/?gws_rd=ssl
+http://52.72.142.234/ with content of "I dream of being a web site."
 
 What images were viewed?
 
