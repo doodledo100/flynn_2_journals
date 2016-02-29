@@ -2,43 +2,60 @@ In your VM
 
     Execute the command apt-cache search sniff
     What do you see?
+    It's a list of tools with the word "sniff" in the names and desc.
     Copy and paste 3 names that sound intersting
+    wireshark
+    tcpick
+    hunt
 
     Execute the command: cat /proc/sys/net/ipv4/ip_forward
     What do you think it means?
+Machine ports are closed
     Why might someone change the value to 1?
-
+Open a port
     You should now install Zenmap
     What command(s) are needed to update and install zenmap?
-
+apt-get update && apt-get install -y zenmap
     Start zenmap
 
     root does not have permission to run graphics; you'll need to use xhost + from your normal VM user.
 
     In a terminal type: nmap --top-ports 25 10.4.27.YOURNINJA+1
     What do you see?
+    List of open and closed ports.
     Change the 25 to 10 and then to 100 - what changed?
+    It shows different views of output.
 
     Enter the code: nmap -F 10.4.27.1-29
 
     What did you see?
+    Open ports on all computers in that range
     How might this be useful in a digital forensics investigation?
+Quickly scan a network of computers
 
     Scan the subnet to identify the various OSes
     What is an OS?
+    Operating Systems
     Why would you scan the network for different OSes?
+    To see the diversity of OSes in a room or on a network
 
     -o is used for OS scans
     What command did you use to scan d22 for different OSes?
+    nmap -O 10.4.27.27
+    
     What is the address of the printer?
     What is the address of the switch?
 
     Try the code: nmap --iflist
     What does it do?
+    It lists interfaces.
     What are the ipv4 addresses?
+    eg 192.168.1.1
     What are the ipv6 addresses?
+    eg fe80::a00:27ff:fe40:49c3/64
     Why the difference?
+    IPv6 allows for a wider range of IPs to be used.
 
     Now fire up Zenmap and take a picture of the network topography
     Why would you want a picture of network topography for digital forensics?
-
+In order to preserve the topography of the network during the crime.
