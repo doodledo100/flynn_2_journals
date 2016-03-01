@@ -1,12 +1,158 @@
-Place a copy your tcpdump in /usr/share/digitalforensics/tcpdump/
-Finish the document called 'Network Capture' share link via email with hashtag networkcapture
-
 Try out the following commands as root and document - what they do:
 1. tcpdump -nS
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+8, win 65535, length 0
+13:42:04.585694 IP 23.235.44.133.443 > 10.0.2.15.47507: Flags [P.], seq 29696002:29697430, ack 2665566358, win 65535, length 1428
+13:42:04.585705 IP 10.0.2.15.47507 > 23.235.44.133.443: Flags [.], ack 29697430, win 31240, length 0
+13:42:04.585779 IP 23.235.44.133.443 > 10.0.2.15.47507: Flags [.], seq 29697430:29698850, ack 2665566358, win 65535, length 1420
+13:42:04.585789 IP 10.0.2.15.47507 > 23.235.44.133.443: Flags [.], ack 29698850, win 34080, length 0
+13:42:04.588680 IP 23.235.44.133.443 > 10.0.2.15.47507: Flags [P.], seq 29698850:29699589, ack 2665566358, win 65535, length 739
+13:42:04.588700 IP 10.0.2.15.47507 > 23.235.44.133.443: Flags [.], ack 29699589, win 36920, length 0
+13:42:04.590103 IP 23.235.44.133.443 > 10.0.2.15.47505: Flags [P.], seq 29571589:29571847, ack 2035244938, win 65535, length 258
+13:42:04.590125 IP 10.0.2.15.47505 > 23.235.44.133.443: Flags [R], seq 2035244938, win 0, length 0
+13:42:04.593412 IP 10.0.2.15.47506 > 23.235.44.133.443: Flags [P.], seq 1735031508:1735031634, ack 29635589, win 36920, length 126
+13:42:04.593563 IP 23.235.44.133.443 > 10.0.2.15.47506: Flags [.], ack 1735031634, win 65535, length 0
+13:42:04.599913 IP 10.0.2.15.47507 > 23.235.44.133.443: Flags [P.], seq 2665566358:2665566484, ack 29699589, win 36920, length 126
+13:42:04.600078 IP 10.0.2.15.47507 > 23.235.44.133.443: Flags [F.], seq 2665566484, ack 29699589, win 36920, length 0
+13:42:04.600152 IP 23.235.44.133.443 > 10.0.2.15.47507: Flags [.], ack 2665566484, win 65535, length 0
+13:42:04.600161 IP 23.235.44.133.443 > 10.0.2.15.47507: Flags [.], ack 2665566485, win 65535, length 0
+13:42:04.600312 IP 10.0.2.15.47506 > 23.235.44.133.443: Flags [P.], seq 1735031634:1735031665, ack 29635589, win 36920, length 31
+13:42:04.600433 IP 23.235.44.133.443 > 10.0.2.15.47506: Flags [.], ack 1735031665, win 65535, length 0
+13:42:04.604849 IP 23.235.44.133.443 > 10.0.2.15.47506: Flags [P.], seq 29635589:29635847, ack 1735031665, win 65535, length 258
+13:42:04.605430 IP 10.0.2.15.47506 > 23.235.44.133.443: Flags [R.], seq 1735031665, ack 29635847, win 39760, length 0
+13:42:04.610491 IP 23.235.44.133.443 > 10.0.2.15.47507: Flags [P.], seq 29699589:29699878, ack 2665566485, win 65535, length 289
+13:42:04.610523 IP 10.0.2.15.47507 > 23.235.44.133.443: Flags [R], seq 2665566485, win 0, length 0
+13:42:04.610564 IP 23.235.44.133.443 > 10.0.2.15.47507: Flags [F.], seq 29699878, ack 2665566485, win 65535, length 0
+13:42:04.610572 IP 10.0.2.15.47507 > 23.235.44.133.443: Flags [R], seq 2665566485, win 0, length 0
+13:42:04.610662 IP 23.235.44.133.443 > 10.0.2.15.47507: Flags [R.], seq 0, ack 2665566485, win 0, length 0
+13:42:14.244431 IP 192.30.252.130.443 > 10.0.2.15.45684: Flags [P.], seq 26988492:26988523, ack 598435975, win 65535, length 31
+13:42:14.244459 IP 192.30.252.130.443 > 10.0.2.15.45684: Flags [F.], seq 26988523, ack 598435975, win 65535, length 0
+13:42:14.244716 IP 10.0.2.15.45684 > 192.30.252.130.443: Flags [F.], seq 598435975, ack 26988524, win 65320, length 0
+13:42:14.245004 IP 192.30.252.130.443 > 10.0.2.15.45684: Flags [.], ack 598435976, win 65535, length 0
+^C
+1220 packets captured
+1220 packets received by filter
+0 packets dropped by kernel
+
 2. tcpdump -w writes to a file, e.g., tcpdump -w lastname_0211.pcap
+It wrote to a file.
+
 3. To capture traffic for a specific port: tcpdump port ??
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+13:44:52.303200 IP 192.229.163.25.https > 10.0.2.15.35358: Flags [S.], seq 44032001, ack 3511047811, win 65535, options [mss 1460], length 0
+13:44:52.303247 IP 10.0.2.15.35358 > 192.229.163.25.https: Flags [.], ack 1, win 29200, length 0
+13:44:52.303619 IP 10.0.2.15.35358 > 192.229.163.25.https: Flags [P.], seq 1:157, ack 1, win 29200, length 156
+13:44:52.303809 IP 192.229.163.25.https > 10.0.2.15.35358: Flags [.], ack 157, win 65535, length 0
+13:44:52.305680 IP 192.229.163.25.https > 10.0.2.15.35358: Flags [F.], seq 1, ack 157, win 65535, length 0
+13:44:52.305811 IP 10.0.2.15.35358 > 192.229.163.25.https: Flags [F.], seq 157, ack 2, win 29200, length 0
+13:44:52.305999 IP 192.229.163.25.https > 10.0.2.15.35358: Flags [.], ack 158, win 65535, length 0
+13:44:53.048135 IP 10.0.2.15.35359 > 192.229.163.25.https: Flags [S], seq 411566862, win 29200, options [mss 1460,sackOK,TS val 3302507 ecr 0,nop,wscale 7], length 0
+13:44:53.058993 IP 192.229.163.25.https > 10.0.2.15.35359: Flags [S.], seq 44160001, ack 411566863, win 65535, options [mss 1460], length 0
+13:44:53.059025 IP 10.0.2.15.35359 > 192.229.163.25.https: Flags [.], ack 1, win 29200, length 0
+13:44:53.059332 IP 10.0.2.15.35359 > 192.229.163.25.https: Flags [P.], seq 1:185, ack 1, win 29200, length 184
+13:44:53.059580 IP 192.229.163.25.https > 10.0.2.15.35359: Flags [.], ack 185, win 65535, length 0
+13:44:53.061311 IP 192.229.163.25.https > 10.0.2.15.35359: Flags [F.], seq 1, ack 185, win 65535, length 0
+13:44:53.061391 IP 10.0.2.15.35359 > 192.229.163.25.https: Flags [.], ack 2, win 29200, length 0
+13:44:53.061570 IP 10.0.2.15.35359 > 192.229.163.25.https: Flags [F.], seq 185, ack 2, win 29200, length 0
+13:44:53.061763 IP 192.229.163.25.https > 10.0.2.15.35359: Flags [.], ack 186, win 65535, length 0
+13:44:53.062030 IP 10.0.2.15.35360 > 192.229.163.25.https: Flags [S], seq 369583742, win 29200, options [mss 1460,sackOK,TS val 3302511 ecr 0,nop,wscale 7], length 0
+13:44:53.074052 IP 192.229.163.25.https > 10.0.2.15.35360: Flags [S.], seq 44224001, ack 369583743, win 65535, options [mss 1460], length 0
+13:44:53.074704 IP 10.0.2.15.35360 > 192.229.163.25.https: Flags [.], ack 1, win 29200, length 0
+13:44:53.075013 IP 10.0.2.15.35360 > 192.229.163.25.https: Flags [P.], seq 1:157, ack 1, win 29200, length 156
+13:44:53.075182 IP 192.229.163.25.https > 10.0.2.15.35360: Flags [.], ack 157, win 65535, length 0
+13:44:53.078168 IP 192.229.163.25.https > 10.0.2.15.35360: Flags [F.], seq 1, ack 157, win 65535, length 0
+13:44:53.078306 IP 10.0.2.15.35360 > 192.229.163.25.https: Flags [F.], seq 157, ack 2, win 29200, length 0
+13:44:53.078445 IP 192.229.163.25.https > 10.0.2.15.35360: Flags [.], ack 158, win 65535, length 0
+13:44:53.078659 IP 10.0.2.15.35361 > 192.229.163.25.https: Flags [S], seq 2982023406, win 29200, options [mss 1460,sackOK,TS val 3302515 ecr 0,nop,wscale 7], length 0
+13:44:53.089367 IP 192.229.163.25.https > 10.0.2.15.35361: Flags [S.], seq 44288001, ack 2982023407, win 65535, options [mss 1460], length 0
+13:44:53.089402 IP 10.0.2.15.35361 > 192.229.163.25.https: Flags [.], ack 1, win 29200, length 0
+13:44:53.089694 IP 10.0.2.15.35361 > 192.229.163.25.https: Flags [P.], seq 1:157, ack 1, win 29200, length 156
+13:44:53.089866 IP 192.229.163.25.https > 10.0.2.15.35361: Flags [.], ack 157, win 65535, length 0
+13:44:53.091575 IP 192.229.163.25.https > 10.0.2.15.35361: Flags [F.], seq 1, ack 157, win 65535, length 0
+13:44:53.091756 IP 10.0.2.15.35361 > 192.229.163.25.https: Flags [F.], seq 157, ack 2, win 29200, length 0
+13:44:53.091932 IP 192.229.163.25.https > 10.0.2.15.35361: Flags [.], ack 158, win 65535, length 0
+13:44:53.520133 IP 10.0.2.15.35362 > 192.229.163.25.https: Flags [S], seq 3710688564, win 29200, options [mss 1460,sackOK,TS val 3302625 ecr 0,nop,wscale 7], length 0
+13:44:53.567649 IP 192.229.163.25.https > 10.0.2.15.35362: Flags [S.], seq 44416001, ack 3710688565, win 65535, options [mss 1460], length 0
+13:44:53.567686 IP 10.0.2.15.35362 > 192.229.163.25.https: Flags [.], ack 1, win 29200, length 0
+13:44:53.567986 IP 10.0.2.15.35362 > 192.229.163.25.https: Flags [P.], seq 1:185, ack 1, win 29200, length 184
+13:44:53.568154 IP 192.229.163.25.https > 10.0.2.15.35362: Flags [.], ack 185, win 65535, length 0
+13:44:53.588410 IP 192.229.163.25.https > 10.0.2.15.35362: Flags [F.], seq 1, ack 185, win 65535, length 0
+13:44:53.588602 IP 10.0.2.15.35362 > 192.229.163.25.https: Flags [F.], seq 185, ack 2, win 29200, length 0
+13:44:53.588769 IP 192.229.163.25.https > 10.0.2.15.35362: Flags [.], ack 186, win 65535, length 0
+13:44:53.589057 IP 10.0.2.15.35363 > 192.229.163.25.https: Flags [S], seq 1546508097, win 29200, options [mss 1460,sackOK,TS val 3302642 ecr 0,nop,wscale 7], length 0
+13:44:53.601519 IP 192.229.163.25.https > 10.0.2.15.35363: Flags [S.], seq 44480001, ack 1546508098, win 65535, options [mss 1460], length 0
+13:44:53.601549 IP 10.0.2.15.35363 > 192.229.163.25.https: Flags [.], ack 1, win 29200, length 0
+13:44:53.601852 IP 10.0.2.15.35363 > 192.229.163.25.https: Flags [P.], seq 1:157, ack 1, win 29200, length 156
+13:44:53.602020 IP 192.229.163.25.https > 10.0.2.15.35363: Flags [.], ack 157, win 65535, length 0
+13:44:53.603725 IP 192.229.163.25.https > 10.0.2.15.35363: Flags [F.], seq 1, ack 157, win 65535, length 0
+13:44:53.603840 IP 10.0.2.15.35363 > 192.229.163.25.https: Flags [F.], seq 157, ack 2, win 29200, length 0
+13:44:53.603995 IP 192.229.163.25.https > 10.0.2.15.35363: Flags [.], ack 158, win 65535, length 0
+13:44:53.604224 IP 10.0.2.15.35364 > 192.229.163.25.https: Flags [S], seq 4251439708, win 29200, options [mss 1460,sackOK,TS val 3302646 ecr 0,nop,wscale 7], length 0
+13:44:53.616726 IP 192.229.163.25.https > 10.0.2.15.35364: Flags [S.], seq 44544001, ack 4251439709, win 65535, options [mss 1460], length 0
+13:44:53.616752 IP 10.0.2.15.35364 > 192.229.163.25.https: Flags [.], ack 1, win 29200, length 0
+13:44:53.617052 IP 10.0.2.15.35364 > 192.229.163.25.https: Flags [P.], seq 1:157, ack 1, win 29200, length 156
+13:44:53.617221 IP 192.229.163.25.https > 10.0.2.15.35364: Flags [.], ack 157, win 65535, length 0
+13:44:53.624541 IP 192.229.163.25.https > 10.0.2.15.35364: Flags [F.], seq 1, ack 157, win 65535, length 0
+13:44:53.624657 IP 10.0.2.15.35364 > 192.229.163.25.https: Flags [.], ack 2, win 29200, length 0
+13:44:53.624836 IP 10.0.2.15.35364 > 192.229.163.25.https: Flags [F.], seq 157, ack 2, win 29200, length 0
+13:44:53.624916 IP 192.229.163.25.https > 10.0.2.15.35364: Flags [.], ack 158, win 65535, length 0
+13:44:56.805328 IP 10.0.2.15.54384 > neec-proxy-ttc.neisd.ad.https: Flags [.], ack 5321, win 44020, length 0
+13:44:56.805570 IP neec-proxy-ttc.neisd.ad.https > 10.0.2.15.54384: Flags [.], ack 788, win 65535, length 0
+^C
+2588 packets captured
+2588 packets received by filter
+0 packets dropped by kernel
+
 4. To cature traffic on a specific interface: tcpdump -i eth0
+13:46:44.197464 IP 10.0.2.15.46999 > 23.235.37.217.https: Flags [P.], seq 1:160, ack 1, win 29200, length 159
+13:46:44.197639 IP 23.235.37.217.https > 10.0.2.15.46999: Flags [.], ack 160, win 65535, length 0
+13:46:44.199049 IP 23.235.37.217.https > 10.0.2.15.46999: Flags [F.], seq 1, ack 160, win 65535, length 0
+13:46:44.199184 IP 10.0.2.15.46999 > 23.235.37.217.https: Flags [F.], seq 160, ack 2, win 29200, length 0
+13:46:44.199320 IP 23.235.37.217.https > 10.0.2.15.46999: Flags [.], ack 161, win 65535, length 0
+13:46:44.199557 IP 10.0.2.15.47000 > 23.235.37.217.https: Flags [S], seq 990007570, win 29200, options [mss 1460,sackOK,TS val 3330295 ecr 0,nop,wscale 7], length 0
+13:46:44.210487 IP 23.235.37.217.https > 10.0.2.15.47000: Flags [S.], seq 61376001, ack 990007571, win 65535, options [mss 1460], length 0
+13:46:44.210526 IP 10.0.2.15.47000 > 23.235.37.217.https: Flags [.], ack 1, win 29200, length 0
+13:46:44.210898 IP 10.0.2.15.47000 > 23.235.37.217.https: Flags [P.], seq 1:160, ack 1, win 29200, length 159
+13:46:44.211045 IP 23.235.37.217.https > 10.0.2.15.47000: Flags [.], ack 160, win 65535, length 0
+13:46:44.212686 IP 23.235.37.217.https > 10.0.2.15.47000: Flags [F.], seq 1, ack 160, win 65535, length 0
+13:46:44.212796 IP 10.0.2.15.47000 > 23.235.37.217.https: Flags [F.], seq 160, ack 2, win 29200, length 0
+13:46:44.212967 IP 23.235.37.217.https > 10.0.2.15.47000: Flags [.], ack 161, win 65535, length 0
+13:46:44.520622 IP 10.0.2.15.41777 > cloudproxy10005.sucuri.net.https: Flags [P.], seq 4762:5085, ack 732476, win 65535, length 323
+13:46:44.520961 IP cloudproxy10005.sucuri.net.https > 10.0.2.15.41777: Flags [.], ack 5085, win 65535, length 0
+13:46:44.537633 IP 10.0.2.15.41774 > cloudproxy10005.sucuri.net.https: Flags [P.], seq 5984:6471, ack 407371, win 65535, length 487
+13:46:44.537943 IP cloudproxy10005.sucuri.net.https > 10.0.2.15.41774: Flags [.], ack 6471, win 65535, length 0
+13:46:44.544885 IP 10.0.2.15.41771 > cloudproxy10005.sucuri.net.https: Flags [P.], seq 7317:7853, ack 382837, win 65535, length 536
+13:46:44.545247 IP cloudproxy10005.sucuri.net.https > 10.0.2.15.41771: Flags [.], ack 7853, win 65535, length 0
+13:46:44.547145 IP cloudproxy10005.sucuri.net.https > 10.0.2.15.41777: Flags [P.], seq 732476:734079, ack 5085, win 65535, length 1603
+13:46:44.547169 IP 10.0.2.15.41777 > cloudproxy10005.sucuri.net.https: Flags [.], ack 734079, win 65535, length 0
+13:46:44.553722 IP cloudproxy10005.sucuri.net.https > 10.0.2.15.41774: Flags [P.], seq 407371:410023, ack 6471, win 65535, length 2652
+13:46:44.553746 IP 10.0.2.15.41774 > cloudproxy10005.sucuri.net.https: Flags [.], ack 410023, win 65535, length 0
+13:46:44.560686 IP cloudproxy10005.sucuri.net.https > 10.0.2.15.41771: Flags [P.], seq 382837:390841, ack 7853, win 65535, length 8004
+13:46:44.560713 IP 10.0.2.15.41771 > cloudproxy10005.sucuri.net.https: Flags [.], ack 390841, win 65535, length 0
+13:46:45.501371 IP 10.0.2.15.54414 > neec-proxy-ttc.neisd.ad.https: Flags [.], ack 2087, win 34080, length 0
+13:46:45.501737 IP neec-proxy-ttc.neisd.ad.https > 10.0.2.15.54414: Flags [.], ack 971, win 65535, length 0
+
 5. In Linux, to list interfaces, type ifconfig (as root)
+eth0      Link encap:Ethernet  HWaddr 08:00:27:40:49:c3  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::a00:27ff:fe40:49c3/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:161956 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:30037 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:200108047 (190.8 MiB)  TX bytes:2207160 (2.1 MiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
 6. Given the above - what is the command to capture most/all web based traffic on your computer to a file lastname_0211.pcap?
 7. Use that command to begin a packet capture.
 8. Browse to ten web pages
