@@ -2,12 +2,22 @@
 2. In your VM do- "apt-get install kismet"
 man kismet
 What is kismet for?
+Wireless sniffing and logging
 3. Kismet must be configured. It will log packets. We must configure kismet to not log packets. Why?
+Logging packets is a federal crime without a warrant to do so.
 4. Under what specific circumstances might one use kismet to log packets?
+To monitor a business network on equipment the business owns or monitor personal equipment.
 5. Look up war-driving. What is it?
+War driving, also called access point mapping, is the act of locating and possibly exploiting connections to wireless local area networks while driving around a city or elsewhere.
 6. What is the diffrence between war-driving and piggy-backing?
+War-driving is using a moving vehicle to find access points, while piggy-backing is the unauthorized access of a wireless LAN, usually a wireless LAN without encryption (password).
 7. Which poses a grater security risk? Why?
+Piggy-backing because, the intruder is not moving away from the network meaning more time for them to access something they shouldn't.
 8. How might kismet be used to improve wireless security?
+It can be used to find heavy traffic zones on the wireless LAN, which can help fix the issue.
 9. With regards to arp poisioning?
+The attacker can redirect private traffic through his computer then on to the requesters computer which is a big invasion of privacy.
 10. What is wigle.net? What software is used to contribute?
+wigle.net is a website showing how populated different areas are with wireless signals and packets.
 11. What is the purpose of wigle.net?
+To show the wireless packet population in different areas.
