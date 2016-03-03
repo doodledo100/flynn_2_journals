@@ -1,0 +1,36 @@
+Looking at the network and hard drive data, briefly describe what happened at these times:
+
+1.    There was an email on Scenario Day 5, November 20.
+      Among whom was the email shared? Why is it important?
+2.    A certain user had a "hidden" directory? Who? What incriminating pictures were on it? [Names, access times]
+3.    Some files named 'patent' aren't. Who created the files? When? On which computer?
+4.    Somebody asks about steganography? What is that? who asked? and why? [hypothetically]
+5.    Someone downloaded and installed encryption software. Who? when? where?
+6.    Someone instructed someone else to delete evidence. Who? Whom?
+
+    Look at the police affidavits: 
+http://digitalcorpora.org/corp/nps/scenarios/2009-m57-patents/docs/detectivereport1.pdf
+http://digitalcorpora.org/corp/nps/scenarios/2009-m57-patents/docs/detectivereport2.pdf
+http://digitalcorpora.org/corp/nps/scenarios/2009-m57-patents/docs/detectivereport3.pdf
+http://digitalcorpora.org/corp/nps/scenarios/2009-m57-patents/docs/detectivereport4.pdf
+http://digitalcorpora.org/corp/nps/scenarios/2009-m57-patents/docs/m57-affidavit-warrant-final.pdf
+
+1.    What is suspected?
+2.    How will you use network data to investigate the suspected crime?
+3.    Give 3 examples.
+
+----------
+
+The network data is http://digitalcorpora.org/corp/nps/scenarios/2009-m57-patents/net
+
+    Examine the network files
+
+First, make a map of the network topography - label the machines on the subnet
+
+• Is Jo responsible for the files found on the purchased machine? What evidence is there to support this?
+• How did this machine get onto the secondary market?
+• Who (if anyone) from the company is responsible for the sale of the machine?
+• Are there any other suspicious activities occurring within M57?
+
+The case description is http://digitalcorpora.org/corp/nps/scenarios/2009-m57-patents/docs/M57-Patents-Illegal.pdf
+and the drives are http://digitalcorpora.org/corp/nps/scenarios/2009-m57-patents/drives-redacted/
