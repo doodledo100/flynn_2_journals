@@ -154,18 +154,21 @@ lo        Link encap:Local Loopback
           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
 
 6. Given the above - what is the command to capture most/all web based traffic on your computer to a file lastname_0211.pcap?
+tcpdump -i eth0 -w flynn_2_0211.pcap
 7. Use that command to begin a packet capture.
 8. Browse to ten web pages
 9. Examine the pcap - grab a line from each of the ten web pages
 
 Post them in your document, number and describing each one:
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+1. https://www.yahoo.com      | Line 715
+2. serverfault.com            | Line 518
+3. https://wigle.net          | Line 410
+4. https://virtualhacker.net  | Line 353
+5. edublogs.org               | Line 318
+6. https://www.test.com       | Line 205
+7. https://github.com         | Line 164
+8. https://owncloud.com       | Line 73
+9. ricks-apps.com             | Line 57
+10. d22.ninja                 | Line 39
+Some pages are shown in the report on more than one line but only one line is given here for evidence.
+The line numbers are referring to the index.html created from flynn3_2_0211.pcap
