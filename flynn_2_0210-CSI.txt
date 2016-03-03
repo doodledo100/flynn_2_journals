@@ -1,19 +1,35 @@
 CSI - Reality and Film
 1. How is the portrayal of malicious code problematic?
+Very fast scrolling prevents reading specific lines without capturing info.
 2. Why is the case being investigated by Cyber CSI?
+A potential intrusion may have happened at a pharmacy.
 3. What is the “deep web”? 
+Locations on the internet not monitored by higher authorities.
 4. How / why was the pharmacy not legitimate although it was on 
     “Scroll MD”? 
+    The advertisements were not created by the pharmcay.
 5.    How is the CyberCSI data search different than one might 
 experience in real life? [What tool might one use in real life?]
+find and grep could be used to search for IP addresses
 6. How is the “mailer” the most vulnerable in the chain? 
+The mailer is the man in the middle.
 7. What does “malvertisement” refer to?
+A malicious advertisment.
 8. How did they find the GPS coordinates?
+Tracked a phone through GPS and cell towers.
 9. What other location data does your cell phone provide?
+It provides a time and a place which can either be helpful or hurtful to the suspect.
 10. What type of “injection” was used to redirect customers? How?
+HTML injection
 11. How did he obfuscate his license plate? 
+He used an Infrared Blaster
 12. How was the “perp’s” car tracked? 
+Bluetooth and his license plate
 13. How might one “spoof” mac addresses? 
+Find an allowed MAC address and spoof your MAC address to the allowed MAC using tools on a computer
 14. How is the DDOS diagnosis suspicious?
+Internet may go out for a while and it is very hard to trace.
 15. What is a DDOS attack? How does it work?
-16. How did the perp transfer funds so to obfuscate tracking? 
+It is a directed denial of service attack that constantly floods a network with packets and packet requests to overload the network and eventually make it go out.
+16. How did the perp transfer funds so to obfuscate tracking?
+The perp used a poker site to transfer the funds.
