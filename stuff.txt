@@ -2,8 +2,6 @@ http://digitalcorpora.org/corpora/drives/nps-2008-m57-jean/M57-Jean.pdf
 
 126669 mactime.csv on ~/Desktop
 
-**index.html and pcap for 0211-network cap
-
 Journals Left:
 
 0218
