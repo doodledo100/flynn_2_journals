@@ -1,0 +1,14 @@
+Follow the template http://d22.ninja/digitalforensics_1516/resources/Example_of_An_Expert_Witness_Digital_for.pdf
+
+You should address each element listed/bolded in the document
+
+    Elements to consider / narrow your search:
+    Look at jo-2009-11-18: What's in documents and settings?
+    Look at jo-2009-11-20: What emails has he sent?
+    Look at jo-2009-11-24: Have some files been renamed with 'patent' and 'hides'?
+    Look at jo-2009-11-24: Are there any hidden or web files?
+    Look at jo-2009-11-18: What's in documents and settings?
+    Day 9 - suspicious email?
+    Day 11 - any suspicious software?
+    Look at jo-2009-12-10: Any suspicious emails?
+    What can you say about the USB drive?
