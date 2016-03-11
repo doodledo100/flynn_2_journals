@@ -5,6 +5,5 @@ http://digitalcorpora.org/corpora/drives/nps-2008-m57-jean/M57-Jean.pdf
 Journals Left:
 
 0218
-0302
-0304
-0307
+0302-Kittens
+0309-Exam
