@@ -1,0 +1,3 @@
+Imagine - you are a corporate digital forensics investigator
+
+In a minimum of one page narrative - explain how your network was exploited and how you detected and solved the crime - and the evidence used to convict. Also explain how you maintained the chain of custody.
