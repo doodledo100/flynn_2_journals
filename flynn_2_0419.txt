@@ -1,0 +1,4 @@
+
+    1. What option must you disable in Kismet so as to not commit a felony? Why?
+    2. What is WEP encryption and why is it unsafe? i.e., how is it compromised?
+

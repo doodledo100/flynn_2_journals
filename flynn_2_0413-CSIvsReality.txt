@@ -1,0 +1,6 @@
+Read the article http://d22.ninja/digitalforensics_1516/resources/2014-02-21_RPI_Forensics_Innovation.pdf
+What makes digital forensics dificult?
+In the document - what is described as the "CSI effect"?
+On page 29 - what makes that data 'easy'? [Be specific.]
+What process does Dr. Simson recommend for deciding whether a drive has been wiped?
+Which 3 tools does Dr. Simson list at the end? What does each do?

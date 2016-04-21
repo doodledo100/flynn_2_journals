@@ -1,0 +1,11 @@
+
+    1. What is the bandwidth of wifi?
+    2. What channels does wifi have?
+    3. Which channels do people commonly use? Why?
+    What are the differences between A, B, G, N, and AC IEEE defined wireless protocols?
+    4. What are WEP, WPA, and WPA2? What are the differences?
+    5. Which is more secure? Which is least secure? Why?
+    6. What is AirSnort? What is it for? How does it work?
+    7. What is Kismet (for wireless)? What are its legal, legitimate uses?
+    8. What is Karma (the wireless tool)?
+

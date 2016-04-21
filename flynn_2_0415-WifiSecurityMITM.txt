@@ -1,0 +1,4 @@
+
+    Using your internet skills list ten different MITM (man in the middle) attacks.
+    Describe whether and how each might be detected or prevented.
+

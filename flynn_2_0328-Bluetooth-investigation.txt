@@ -1,0 +1,42 @@
+Please skim the article http://d22.ninja/digitalforensics_1516/resources/Browning_Kessler_Bluetooth.pdf and closely read pages 60-61
+Number each of your answers on their own line. Use complete sentences.
+
+    Every person, without exception, should describe:
+
+    What are the attacks described in the Browning and Kessler document? [Briefly describe what each does]
+
+    Then -- after looking at the document http://d22.ninja/digitalforensics_1516/resources/Bluetoothtop.pdf
+Imagine you are an investigator. There is some suspicious traffic on the network.Describe what is happening?
+You determine that the network was compromised via Bluetooth. How did you determine this?
+What do you suspect happened and why?
+How might you prove this? [Describe specific tools and approaches.
+How will you prevent your network in future from bluetooth attacks?
+-----Bluetooth results------
+After passing your Bluetooth to your VM. Open a new google doc - Bluetooth-results.
+Number each answer and describe:
+/etc/init.d/bluetooth status This also works as a regular user.
+apt-get update & & apt-get install -y gnome-bluetooth What happened?
+apt-get -y install blueman bluetooth bluez bluedevil btscanner bluez-hcidump Restart your VM.
+hciconfig -a hci0 name yourschoolappropriatehandle What's this for?
+In a terminal you'll leave open hcidump -w lastname_btdump_0328 Close this at the end of class
+hciconfig -a hci0 piscan Why do this?
+hcitool -i hci0 scan Post your results. Replace the last 4 with XXXX
+Why replace the last four?
+apt-get install obexftp What new packages were installed? [You'll need to read the output. Hint: it's more than one]
+l2ping YO:UR:MA:CA:DD:RE:SS What did you see? What does this do?
+sdptool browse YO:UR:MA:CA:DD:RE:SS What did you see? What does this do?
+sdptool search OPUSH What did this list? What implications does it have?
+blueman-manager Note: if you get a no x-server error - try export DISPLAY=:0 then try again. What do you see?
+btscanner then i What do you see? what is this? ctrl-c to exit
+bluetoothctl What does this due? Results?
+type :paired-devices
+agent KeyboardDisplay
+default-agent
+trust YO:UR:MA:CA:DD:RE:SS
+pair YO:UR:MA:CA:DD:RE:SS
+Accept on your other devive and type yes in your terminal. Copy and paste what you see.
+Now using the trusted device, pair with your computer - What notices did you see?
+Look for system settings > bluetooth and see what you can configure. Can you send files to others in the class?
+Be sure to end your bluetooth dump. Open it with wireshark.
+
+Zip the bluetooth dump and share it via Google drive

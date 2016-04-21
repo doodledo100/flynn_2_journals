@@ -1,0 +1,10 @@
+What is Bluetooth?
+
+Yesterday, you should have written a journal describing how a network was compromised and how you solved the crime. Did you mention Bluetooth? Why or why not?
+
+    What do the following tools do? And what is a sample command for each?
+    hciconfig
+    hcitool
+    hcidump
+
+Run apt-cache search bluetooth |less - What are three interesting packages you see? How are they interesting?
