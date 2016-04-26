@@ -1,0 +1,9 @@
+
+    Have you logged into your router at home?
+    Do you know what router you use? Which?
+    Do you know what firmware your router uses? Which?
+    Do you know the essid of your router? your neighbors' routers?[Notice, you were not asked to provide any ESSIDs.]
+    Which channel is your router using? protocol(s)?
+    Have you changed the default password? why or why not?
+    Should you change the default password? why or why not?
+
