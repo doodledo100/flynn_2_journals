@@ -1,10 +1,14 @@
 What is Bluetooth?
 
 Yesterday, you should have written a journal describing how a network was compromised and how you solved the crime. Did you mention Bluetooth? Why or why not?
+    Yes I did because bluetooth is a powerful thing and can be used unethically by bluesnarfing and other bluetooth vulnerablilities.
 
     What do the following tools do? And what is a sample command for each?
-    hciconfig
-    hcitool
-    hcidump
+    hciconfig - It configures Bluetooth devices; hciconfig piscan
+    hcitool - It configures Bluetooth connections; hcitool scan
+    hcidump - Reads raw data going to and from Bluetooth devices and prints to the terminal; hcidump -w BluetoothDump
 
 Run apt-cache search bluetooth |less - What are three interesting packages you see? How are they interesting?
+1. bluez-tools; Set of tools that help easily configure bluetooth scanning or configuration.
+2. btscanner; Makes it easier to scan for bluetooth devices.
+3. bluesnarfer; It is the process of making unauthorized connections to bluetooth devices.
