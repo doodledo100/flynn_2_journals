@@ -1,11 +1,19 @@
 
     1. What is the bandwidth of wifi?
+    2.4 GHz
     2. What channels does wifi have?
+    1-13 but the US only uses 1-11
     3. Which channels do people commonly use? Why?
+    1 and 11 because they are on the end of the channel spectrum which means that the other channels that overlap would only happen on one side of the first or last channel, resulting in less interfearance with other channels.
     What are the differences between A, B, G, N, and AC IEEE defined wireless protocols?
+    It just corresponds to the speed, bandwidth, etc that the protcol can handle.
     4. What are WEP, WPA, and WPA2? What are the differences?
+    WEP, WPA, and WPA2 are all security protocols used to protect wifi signals; The differences include the strength of the encryption for each protocol.
     5. Which is more secure? Which is least secure? Why?
+    WPA2 is more secure, and WEP is least secure.
     6. What is AirSnort? What is it for? How does it work?
+    AirSnort is a Linux and Microsoft Windows utility (using GTK+) for decrypting WEP encryption on an 802.11b network.
     7. What is Kismet (for wireless)? What are its legal, legitimate uses?
+    Kismet is a network detector, packet sniffer, and intrusion detection system for 802.11 wireless LANs. Kismet will work with any wireless card which supports raw monitoring mode, and can sniff 802.11a, 802.11b, 802.11g, and 802.11n traffic.
     8. What is Karma (the wireless tool)?
-
+    Karma grabs a cellular connection out of thin air and turns it into your own personal WiFi signal, anywhere you are.
