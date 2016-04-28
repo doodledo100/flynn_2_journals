@@ -1,4 +1,7 @@
 Read the article http://usa.kaspersky.com/internet-security-center/internet-safety/public-wifi-risks
 What are the threats to wifi security listed in the article?
+The real threat is a MiTM hacker between you and a free access point, relaying all of your data to the AP after it goes through the hackers computer.
 What can you do to mitigate those threats?
+Use a VPN, turn WiFi off when not in use, keep and updated virus/malware scanner on your computer.
 What is a vpn? How does one use a VPN? Why?
+A VPN is a virtual private network that encrypt all of your traffic before it sent to the AP. This should be used to keep you safe from MiTM threats.
