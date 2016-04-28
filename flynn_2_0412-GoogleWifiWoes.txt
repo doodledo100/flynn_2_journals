@@ -1,6 +1,10 @@
 Read the articles http://simson.net/ref/2014/2014-02-18_Sniff.pdf and http://www.cnet.com/news/deciphering-googles-wi-fi-headache-faq/
 EITHER WILL SUFFICE. Two are better than one, i.e., only having access to one does not excuse not doing the assignment.
 Why did Google get in trouble?
+Google "accidentally" collected network traffic or payload information.
 Which open source Software tool did they use?
+Kismet
 What mistake did they make?
-Do you believe Google made an honest mistake? Justify your position with specifics and details. 
+They didn't disable all payload or traffic logging, they only threw out encrypted information.
+Do you believe Google made an honest mistake? Justify your position with specifics and details.
+I think Google could have known about it but it came to a point where it had to be dealt with publically.
