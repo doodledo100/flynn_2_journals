@@ -1,9 +1,16 @@
 
     Have you logged into your router at home?
+    Yes
     Do you know what router you use? Which?
+    Currently I use the built in router from TWC but I have talked with Mr. Davis on the other routers I own. ie. Linksys WRT54G, Nighthauk AC1900, etc...
     Do you know what firmware your router uses? Which?
+    It runs DDWRT custom firware I loaded so I could further customize and utilize my router to its full potential.
     Do you know the essid of your router? your neighbors' routers?[Notice, you were not asked to provide any ESSIDs.]
+    Yes; Yes
     Which channel is your router using? protocol(s)?
+    Channel 1; WPA2
     Have you changed the default password? why or why not?
+    Yes because many people do not change the deafault password which is like leaving your front door open for a burglar.
     Should you change the default password? why or why not?
+    Yes for the reason stated above.
 
