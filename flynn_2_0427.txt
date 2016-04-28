@@ -1,0 +1,4 @@
+How is WEP vulnerable?
+PLEASE research and READ. HINT: The answer IS NOT " 	because it's old "
+How might you notice if someone is trying to crack WEP on a network you monitor?
+How can you protect networks from WEP vulnerabilities?
