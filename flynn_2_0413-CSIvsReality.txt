@@ -1,6 +1,14 @@
 Read the article http://d22.ninja/digitalforensics_1516/resources/2014-02-21_RPI_Forensics_Innovation.pdf
 What makes digital forensics dificult?
+It is mostly done manually, but we are trying to make forensic tools more automated for quicker analysis.
 In the document - what is described as the "CSI effect"?
+It is decribed as the difference between forensics in the movies or on TV and the reality of forensics.
 On page 29 - what makes that data 'easy'? [Be specific.]
+You know the data came from Adobe Photoshop to have something to compare to, but the hard version doesn't have any descriptors that could help translation.
 What process does Dr. Simson recommend for deciding whether a drive has been wiped?
+1. Read a random data sector, and if there is data - it isn't wiped.
+2. Repeat until satisfied.
 Which 3 tools does Dr. Simson list at the end? What does each do?
+1. bulk_extractor -  a high-performance stream-based feature extractor
+2. DFXML - An XML language for doing computer forensics
+3. Data! - A website used for data forensics research
