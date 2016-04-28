@@ -1,4 +1,7 @@
 How is WEP vulnerable?
+Everyone knows its weakness and uses that to collect information and easily decrypt it.
 PLEASE research and READ. HINT: The answer IS NOT " 	because it's old "
 How might you notice if someone is trying to crack WEP on a network you monitor?
+Look in your router config to find any unknown connected devices, use MAC filtering to prevent unauthorized access.
 How can you protect networks from WEP vulnerabilities?
+Stop using WEP, its that simple. Upgrade your security because WEP has known weaknesses which means it is not secure.
