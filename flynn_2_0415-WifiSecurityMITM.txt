@@ -1,4 +1,16 @@
 
     Using your internet skills list ten different MITM (man in the middle) attacks.
     Describe whether and how each might be detected or prevented.
-
+1. Command Injection; Injects commands into a server and emulates fake replies from the server.
+2. Malicious code injection; Insertion of malicious code on the fly which could cause computer infection.
+3. Key exchanging; Modification of a key being exchanged between a client and server.
+4. Parameter and banner substitution; Parameters exchanged between the client and server subtituted in effort to decrease security.
+5. IPSEC Failure; Block the Block the keymaterial keymaterial exchanged on the exchanged on the port 500 UDP, which forces clear text to be transmitted most likely without the user even knowing.
+6. PPTP; Can be used to force no excryption over the tunnel system and many other things.
+7. L2TP rollback; By causing L2TP to fail, the connection will rollback to PPTP which can be attacked with previous threats.
+8. DNS Spoofing; If the attacker is able to sniff the ID of the DNS request, he/she can reply before the real DNS server.
+9. DHCP Spoofing; The DHCP request are made in broadcast. The DHCP request are made in broadcast. If the attacker replies before the real DHCP If the attacker replies before the real DHCP server it can manipulate: server it can manipulate:
+     – IP address of the victim IP address of the victim
+     – GW address assigned to the victim GW address assigned to the victim
+     – DNS address
+10. ICMP redirect; The attacker can forge ICMP redirect packet in order to redirect traffic to himself
