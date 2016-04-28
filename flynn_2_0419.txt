@@ -1,4 +1,6 @@
 
     1. What option must you disable in Kismet so as to not commit a felony? Why?
+    You must disable the option that records/dumps/logs any payload information on public networks.
     2. What is WEP encryption and why is it unsafe? i.e., how is it compromised?
+    WEP was the first standardized way of securing wireless networks. It encrypts your data – which is good – but doesn’t do so well enough to stop people from eavesdropping – which is bad. The main problem with WEP is that it’s been solved, meaning anyone can break into a WEP network using freely available tools.
 
