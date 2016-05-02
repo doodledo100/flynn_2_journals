@@ -1,0 +1,3 @@
+Describe how far you are in your Bluetooth investigation.
+I have finished the bluetooth investigation and have moved on to wifi and wifi networks.
+Please note that any reference to needing to change a MAC address is invalid and inappropriate.
