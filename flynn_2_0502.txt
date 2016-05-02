@@ -1,9 +1,14 @@
 In Kali - type ifconfig What do you see? What is it listing?
+It lists the configuration of the network adapters and the IP address and hardware information.
 Insert the wireless dongle and pass it through using the virtualbox interface
 In Kali - AGAIN - type ifconfig What do you see? What is it listing?
+Same as above, except it also lists the wireless adapter information.
 What is a 'kernel'?
+The kernal is the thing that controls the instructions for loading the OS and is the central core of the OS loading.
 How does a kernel relate to the operating system?
+It is the central core of the OS loading.
 In Kali - type uname -a What does it show and what does it mean?
+4.0.0-kali1-amd64; It shows the kernal version.
 In Kali use pico to edit /etc/apt/sources.list
 Make sure that all of the following entries are listed
 
@@ -15,10 +20,13 @@ deb http://http.kali.org/kali kali main non-free contrib
 
 Then, run apt-get update
 What is the sources.list file for?
+It contains a list of all packages in the repositories to be downloaded and installed by the package manager.
 In a terminal in Kali - run the command apt-cache search kernel|grep image
 What options do you have for kernels? [Summarize the differences]
+amd64, Debugging, 64bit, etc; It just has different kernal versions and the one needed just depends on your requirements or compatablitity.
 Enter the command apt-get update && apt-get install -y linux-headers-$(uname -r)
 What happened? What is the purpose of this?
+It told me it was already installed; It just shows the installation status of a package(s).
 After the install is finished - in Kali type shutdown -r now
 Remove the wireless dongle
 After Kali restarts - type ifconfig and then uname -a
