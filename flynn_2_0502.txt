@@ -46,5 +46,8 @@ In Kali - enter the following code:
                 
 
 Briefly summarize what you just did and why.
+This process should have installed driver(s) for the wireless adapter.
 Type ifconfig - do you see anything different? Regardless of output - What does that mean?
+Yes, the wireless dongle configuration is shown. It means that the new drivers can now communicate with the dongle.
 If nothing has changed - you may need to follow the instruction in README_STA_usb
+It is now working and I can scan with 'iwlist ra0 scan'
