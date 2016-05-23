@@ -1,0 +1,16 @@
+Journals 0503, 0504, 0505
+
+Yesterday, you (should have) successfully got wireless working with the dongle.
+After your device shows up:
+iwlist ra0 scan
+What did you see?
+Now try: iwconfig ra0 channel 6 What did you see?
+Now iwspy ra0 What was the output? What did it show?
+Now in a terminal in Kali: wget "https://www.fingbox.com/download?plat=lx64&ext=deb"
+What did this command do?
+Then: mv download\?plat\=lx64\&ext\=deb fing.deb Then type ls -rt.
+dpkg -i find.deb What did this command accomplish?
+How is fing different than iwlist?
+Now try: dumpcap -i ra0 -I -L What do you see?
+Now try: tshark -i ra0 -I -L What do you see?
+Now try: wireshark -i ra0 -I -L What do you see?

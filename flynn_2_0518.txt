@@ -1,0 +1,6 @@
+
+    Please review the document http://d22.ninja/digitalforensics_1516/resources/STN_appendix1.pdf
+    Make a list of the top ten security take aways - i.e., bullet points with brief descriptions
+    Which of these is the least surprising? Why?
+    Which one of these is the most surprising (might the fewest people know)? Why?
+

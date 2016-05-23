@@ -1,0 +1,14 @@
+Now you should install Kismet
+apt-get update && apt-get install -y kismet
+Then copy the kismet.conf from here and copy it to /etc/kismet/kismet.conf in Kali
+Type ifconfig
+start kismet
+answer the Kismet configuration questions as they appear
+when asked for a source you will have to use the wireless device listed in ifconfig
+List five networks you see
+How many clients are connected to each of those?
+What data do you see about the APs (access points)?
+What data do you see about the clients?
+What are three manufacturers you see listed for client devices?
+Looking at Kismet -- what are 3 legitimate, security related uses of Kismet? [Describe how you would use Kismet to fortify security]
+Looking at Kismet -- what are 3 sketchy grey-hat or black-hat, security related uses of Kismet? [Describe how you would use Kismet to fortify security]

@@ -1,0 +1,14 @@
+When discussing wifi:
+
+    What are 3 recommended wireless cards/chipsets for more advanced wireless applications? Finish the words: Ath___os, O____co, Ub_____i
+    Why are these cards recommended?
+    What are special problems with the Broadcom chipset for advanced wireless? Why?
+    What are problems with Ralink?
+    In Linux, how do you identify the chipset a dongle or card is using? [Hint: we've done it together on multiple days.]
+    What is Aircrack? What are its legal and illegal uses?
+    What is airodump-ng? What does it do and what is it for?
+    What is aireplay-ng? What does it do and what is it for?
+    What is a BSSID?
+    With regards to WEP - what is frame injection? How and why is it done?
+    What does ARP stand for? How would one generate ARP packets on a network?
+

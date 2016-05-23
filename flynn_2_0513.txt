@@ -1,0 +1,10 @@
+Yesterday - you should have summarized the reading. Today, please provide specifics:
+
+    Did Saul break the law? Why or why not?
+    Who is Knuth? What is his job? What do you suspect? Why?
+    What hardware did Saul requisition? Why? Provide a brief description and explanation for each.
+    What software did Saul utilize? Why? Provide a brief description and explanation for each.
+    Explain - in ten steps - WITH SPECIFICS - how Saul compromised network security.
+    Make a parts list from web sites you have access to - of what equipment an attacker today might use. Fab-corp is the best site - but it's blocked.
+    Explain: which aspects of Saul's exploits are still a danger? Why? Why not?
+

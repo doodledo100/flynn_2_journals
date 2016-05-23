@@ -1,0 +1,11 @@
+When discussing wifi, what is:
+
+    an AP
+    a client
+    a bridge
+    a repeater
+    ad-hoc mode
+    mesh network
+    war chalking
+    a rogue AP
+
